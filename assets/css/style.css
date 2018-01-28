@@ -239,48 +239,92 @@ body {
     border: 0 none;
   }
   
+/*RESPONSIVE MEDIA SECTION */
+  /*STYLING BELOW 980px!!!*/
   @media screen and (max-width: 980px) {
-    /* Add rules here */
-    .main-section {
-      width:420px;
-    }
-    .container {
-      width: 100%;
-      max-width: 720px;
-    }
-    #contact-form {
-      width: 350px;
-    }
+  
+  .container {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .main-section {
+    width:420px;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
     
-    .work {
-      float: none;
-      width: 300px;
-    }
+  .work {
+    float: none;
+    width: 350px;
+  }
 
-    .work:nth-child(even) {
-      margin-right: 0px;
-    }
+  .work:nth-child(even) {
+    margin-right: 0px;
+  }
 
-    .work img {
-      width: 100%;
-    }
+  .work img {
+    width: 100%;
+  }
 
-    .auth-image {
-      float: none;
-      width: 100%;
-      
+  #contact-form {
+    width: 350px;
+  }  
   }   
   
-  /*Responsive media portion of the document*/
-  /*
-      These rules take effect when the browser's width is either 768px or less.
-  */
+/*RESPONSIVE MEDIA SECTION */
+  /*STYLING BELOW 760px!!!*/
   
   @media screen and (max-width: 768px) {
-      /* Add rules here */ 
-      
-  }  
   
+  .container {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .main-section {
+    width: 100%;
+  }
+
+  .sidebar {
+    clear: both;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .auth-image {
+    float: left;
+    width: 200px;
+  }  
+
+  .work {
+    position: relative;
+    float: left;
+    width: 240px;
+    margin: 20px 0 5px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 20px;
+  }
+
+  #contact-form {
+    width: 100%;
+  }  
+  }
+
+
+
+  }
   /*
       These rules take effect when the browser's width is either 640px or less.
   */
