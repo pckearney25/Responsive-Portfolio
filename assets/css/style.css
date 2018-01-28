@@ -276,7 +276,7 @@ body {
   }   
   
 /*RESPONSIVE MEDIA SECTION */
-  /*STYLING BELOW 760px!!!*/
+  /*STYLING BELOW 768px!!!*/
   
   @media screen and (max-width: 768px) {
   
@@ -322,14 +322,67 @@ body {
   }  
   }
 
-
-
-  }
-  /*
-      These rules take effect when the browser's width is either 640px or less.
-  */
+ /*RESPONSIVE MEDIA SECTION */
+  /*STYLING BELOW 640px!!!*/
   @media screen and (max-width: 640px) {
-      /* Add rules here */
-      
+  
+  .container {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 0px;
+  }
+  
+  #logo {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  
+  nav {
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+    
+  nav a {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0px;
+    line-height: 18px;
+  }
+
+  #main-container {
+    padding-top: 200px;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
+  .work {
+    float: none;
+    width: 100%;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 0px;
+  }
+
+  .work img {
+    width: 100%;
+  }
+
+
+  
   }  
   
